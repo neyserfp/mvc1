@@ -191,6 +191,11 @@ window.addEventListener('load', function(){
     boton1 = document.getElementById("botonInsercion1");
     controlador1 = "Controllers/Insercion1Controller.php";
     div1 = document.getElementById("contenedor2");
+
+    textoInsercion1 = document.getElementById("textoInsercion1");
+    textoInsercion2 = document.getElementById("textoInsercion2");
+    textoInsercion3 = document.getElementById("textoInsercion3");
+
     // Evento y llamada a la función
     formInsercion1.addEventListener("submit", function(event){
       event.preventDefault();
