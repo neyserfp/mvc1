@@ -19,6 +19,9 @@
         // Devuelve datos de la BD (select)
         public function insertData1($sql)
         {
+
+            $this->mysqli->query($sql);
+            /*
             if(!$this->mysqli->query($sql))
             {
                 echo "La operación no se ha podido realizar";
@@ -36,6 +39,9 @@
                 $this->mysqli->close();
                 return $this->data;
             }
+            */
+            
+            
         }
 
     }
